@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aliyun/static/css/main.9e25dc40.chunk.css",
+    "main.js": "/aliyun/static/js/main.06c54a68.chunk.js",
+    "main.js.map": "/aliyun/static/js/main.06c54a68.chunk.js.map",
+    "runtime-main.js": "/aliyun/static/js/runtime-main.98aec603.js",
+    "runtime-main.js.map": "/aliyun/static/js/runtime-main.98aec603.js.map",
+    "static/css/2.43f3662a.chunk.css": "/aliyun/static/css/2.43f3662a.chunk.css",
+    "static/js/2.57eadc7c.chunk.js": "/aliyun/static/js/2.57eadc7c.chunk.js",
+    "static/js/2.57eadc7c.chunk.js.map": "/aliyun/static/js/2.57eadc7c.chunk.js.map",
+    "index.html": "/aliyun/index.html",
+    "precache-manifest.218fea95d73fc955afbdb703ef4a4c86.js": "/aliyun/precache-manifest.218fea95d73fc955afbdb703ef4a4c86.js",
+    "service-worker.js": "/aliyun/service-worker.js",
+    "static/css/2.43f3662a.chunk.css.map": "/aliyun/static/css/2.43f3662a.chunk.css.map",
+    "static/css/main.9e25dc40.chunk.css.map": "/aliyun/static/css/main.9e25dc40.chunk.css.map",
+    "static/js/2.57eadc7c.chunk.js.LICENSE": "/aliyun/static/js/2.57eadc7c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98aec603.js",
+    "static/css/2.43f3662a.chunk.css",
+    "static/js/2.57eadc7c.chunk.js",
+    "static/css/main.9e25dc40.chunk.css",
+    "static/js/main.06c54a68.chunk.js"
+  ]
+}
