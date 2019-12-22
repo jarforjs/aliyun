@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Layout , Input, Card, Carousel } from 'antd';
 import Container from "./components/Container";
 import ContentPositionItem from './components/ContentPositionItem'
@@ -11,9 +11,9 @@ const footerStyle = {
   padding: 0,
 }
 
-let contentPositionArr = []
+let factoryArr = []
 for (let i = 1; i <= 100; i++) {
-  contentPositionArr.push({
+  factoryArr.push({
     title: `${i}、蚂蚁金服-数据挖掘工程师/专家/高级专家v蚂蚁金服-数据挖掘工程师/专家/高级专家蚂蚁金服-数据挖掘工程师/专家/高级专家`,
     address: '上海',
     time: `${i+5}小时`
@@ -21,6 +21,8 @@ for (let i = 1; i <= 100; i++) {
 }
 
 function App() {
+  const [contentPositionArr, setContentPositionArr]= useState(factoryArr)
+
   return (
     <Layout>
       <Header style={{ padding: 0, height: 54 }}>
@@ -67,7 +69,7 @@ function App() {
         </div>
         <Container renderer={<div style={{ width: 1180, maxWidth: 1180, margin: '32px auto', display: 'flex', justifyContent: 'space-between' }}/>}>
           <Card title="最新职位" extra={<a href="#">更多</a>} className="content-position" style={{ height: 300, width: 850, overflow: "hidden" }}>
-            <Carousel infinite autoplay={true} slidesToShow={5} slidesToScroll={5} dots={false} dotPosition="right" style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <Carousel infinite autoplay={true} slidesToShow={5} easing="easeOut" slidesToScroll={5} dots={false} dotPosition="right" style={{ display: 'flex', justifyContent: 'space-between' }}>
               {
                 contentPositionArr.map((item, index) => (
                   <ContentPositionItem item={item} index={index} key={index}/>
